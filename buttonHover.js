@@ -1,4 +1,4 @@
-$('button').on('mouseover', function() {
+$('button').on('TouchEvent()', function() {
     $(this).animate({
       'top': Math.random() * document.
                 getElementById('content').
